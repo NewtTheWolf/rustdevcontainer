@@ -1,6 +1,6 @@
 # Rust Dev Container
 
-Rust development container for Visual Studio Code
+Rust development container for Visual Studio Code.
 
 ![Icon](https://github.com/qdm12/rustdevcontainer/raw/main/icon.svg)
 
