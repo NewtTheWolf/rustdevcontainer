@@ -1,1 +1,1 @@
-FROM qmcgaw/rustdevcontainer
+FROM rustdevcontainer/latest
