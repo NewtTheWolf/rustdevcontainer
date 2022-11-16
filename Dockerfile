@@ -27,10 +27,9 @@ LABEL \
     org.opencontainers.image.description="Rust development container for Visual Studio Code Remote Containers development"
 WORKDIR /workspace
 
-
 # Install Rust for the correct CPU architecture
 ARG RUST_VERSION=1.65.0
-ARG RUSTUP_INIT_VERSION=1.25.1
+ARG RUSTUP_INIT_VERSION=1.24.3
 ENV RUSTUP_HOME=/usr/local/rustup \
     CARGO_HOME=/usr/local/cargo \
     PATH=/usr/local/cargo/bin:$PATH
